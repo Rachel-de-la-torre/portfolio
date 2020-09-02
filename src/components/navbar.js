@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import React, { Component } from 'react';
+import { Smile } from '../assets/assetsImport'; 
 
 export default class Navbar extends Component {
     render() {
         return (
             <nav className="nav">
-            <p>this will be the nav bar</p>
+            <img src={ Smile } alt="logo" />
+            {/* <img src = '../assets/smile.svg'> */}
               <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
