@@ -5,7 +5,8 @@ import Home from "./components/Home.js";
 import Navbar from './components/Navbar.js';
 import Works from './components/Works';
 import About from './components/About';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import Login from './components/Login';
 
 class App extends React.Component {
   state = {
@@ -27,7 +28,7 @@ class App extends React.Component {
           <Route exact path="/navbar" component={Navbar} />
           <Route exact path="/works" component={Works} />
           <Route exact path="/about" component={About} />
-          {/* <Route exact path="/press" component={Press} /> */}
+          <Route exact path="/login" component={Login} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
      </BrowserRouter>

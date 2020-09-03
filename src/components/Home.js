@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import '../App.css';
 
 
-function App() {
+function Home() {
   return (
     <div>
       <Navbar />
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

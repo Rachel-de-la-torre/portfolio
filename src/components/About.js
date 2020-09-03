@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import Navbar from './Navbar';
 
-function App() {
+function About() {
   return (
     <div>
       <Navbar />
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;

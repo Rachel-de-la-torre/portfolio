@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import '../App.css';
 
-function App() {
+function Works() {
   return (
     <div>
       <Navbar />
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default Works;
