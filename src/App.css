@@ -1,5 +1,5 @@
 .nav {
-  background: yellow;
+  background: #0000FF;
   /* width: 100%; */
   padding: 1vh;
   display: flex;
@@ -13,3 +13,10 @@
   padding-left: 100vh;
 }
 
+.homeCont {
+  background: #0000FF;
+}
+
+.animate{
+  size: 40px;
+}

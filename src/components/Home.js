@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
-
+import { PKnife } from '../assets/assetsImport';
 
 function Home() {
   return (
-    <div>
-      <h1>this is my site you peasant</h1>
+    <div class='homeCont'>
+      <img class="animate" src={ PKnife } alt="I'm handy like a pocket knife" />
     </div>
   );
 }
