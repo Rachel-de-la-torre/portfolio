@@ -1,11 +1,26 @@
 import React from 'react';
 import '../App.css';
+import { Me } from '../assets/assetsImport';
+import { Linked } from '../assets/assetsImport';
+import { Git } from '../assets/assetsImport';
 
 function About() {
   return (
     <div>
-      <h1>This is me</h1>
-      <p>I'm Rachel, an experienced Digital Media Consultant with a demonstrated history of working in the design industry. I am skilled in design thinking, UX & UI, motion design, web development, cross-platform marketing, and digital advertising for web and mobile. I also have a background in Fashion which</p>
+      <img className="me" src={ Me } alt="this is me" />
+      <div className='about'>
+        <h2>Hello! My name is</h2>
+        <h1>RACHEL de la Torre</h1>
+        <p>I have a degree in Graphic design from Central Saint Martins and 5+ years work experience as a creative developing UX & UI and Motion Graphics for advertising and digitalization agencies. Most recently I completed a Full Stack Web Development boot-camp at Iron hack in the hopes to take my skills next level. </p>
+        <div className='links'>
+          <a href="https://www.linkedin.com/in/rachel-de-la-torre-90383573/">
+            <img src={ Linked } alt='linkedIn' />
+          </a>
+          <a href="https://github.com/Rachel-de-la-torre">
+            <img src={ Git } alt='GitHub' />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
