@@ -44,6 +44,16 @@ h1{
   width: 100vh;
 }
 
+.homeAbout h1{
+  color: white;
+}
+.homeAbout h2{
+  color: white;
+}
+.homeAbout h3{
+  color: white;
+}
+
 .about{
   display: block;
   margin-left: auto;
