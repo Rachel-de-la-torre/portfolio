@@ -1,11 +1,24 @@
 import React from 'react';
 import '../App.css';
+import { Call } from '../assets/assetsImport';
+import { Linked } from '../assets/assetsImport';
+import { Git } from '../assets/assetsImport';
 
 function Contact() {
   return (
-    <div>
+    <div className="contact">
       <h1>call me on my cell phone</h1>
-      <p></p>
+      <h3>+49 1577285311</h3>
+      <h3>Rachel.delatorre1@gmail.com</h3>
+      <img className="holine" src={Call} alt='hotline bling' />
+      <div className='links'>
+          <a href="https://www.linkedin.com/in/rachel-de-la-torre-90383573/">
+            <img src={ Linked } alt='linkedIn' />
+          </a>
+          <a href="https://github.com/Rachel-de-la-torre">
+            <img src={ Git } alt='GitHub' />
+          </a>
+        </div>
     </div>
   );
 }

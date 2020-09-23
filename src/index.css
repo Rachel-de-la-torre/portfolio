@@ -24,3 +24,22 @@ h1 {
   width: fit-content;
 }
 
+h2 {
+  color:#1800FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: fit-content;
+}
+
+h3 {
+  color:#1800FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: fit-content;
+}
