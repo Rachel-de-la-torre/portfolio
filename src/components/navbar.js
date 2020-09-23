@@ -6,13 +6,14 @@ export default class Navbar extends Component {
     render() {
         return (
             <nav className="nav">
-            <img src={ Smile } alt="logo" />
-              <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/work">Work</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-              </ul>
+              <Link to="/">
+                <img src={ Smile } alt="logo" className='smile'/>
+              </Link>
+              <div className='intLinks'>
+                <Link to="/about">About</Link>
+                <Link to="/work">Work</Link>
+                <Link to="/contact">Contact</Link>
+              </div>
             </nav>
         )
     }
