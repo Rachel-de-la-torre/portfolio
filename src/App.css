@@ -16,22 +16,15 @@ h1{
   align-items: center;
   flex-direction: row;
 }
-
 .smile{
   width:7vh;
   margin-left: 1em;
 }
 
-
 .intLinks a {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
   margin-left: 3vw;
   color: white;
 }
-
 
 .homeCont{
   background: #0000FF;
@@ -45,13 +38,15 @@ h1{
 }
 
 .homeAbout h1{
-  color: white;
+  /* color: white; */
 }
+
 .homeAbout h2{
-  color: white;
+  /* color: white; */
 }
+
 .homeAbout h3{
-  color: white;
+  /* color: white; */
 }
 
 .about{
@@ -70,7 +65,7 @@ h1{
 
 .about h2{
   justify-content: left;
-  color: #0000FF;
+  /* color: #0000FF; */
   font-size: 1.4em;
 }
 
@@ -137,10 +132,12 @@ h1{
   width: 20%;
   min-width: 350px;
   max-width: 400px;
-  margin: 5%;
+  /* margin: 5%; */
 }
 
 .project img {
-  size: 20%;
-  min-block-size: 350px;
+  /* size: 20%;
+  min-width: 300px;
+  min-height: 300px; */
+  max-width: 70%;
 }

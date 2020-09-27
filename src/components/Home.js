@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
-import { PKnife } from '../assets/assetsImport';
 import Projects from './Projects';
 import { Link } from "react-router-dom";
+import Loading from './Loading';
 
 
 
@@ -10,8 +10,7 @@ function Home() {
   return (
     <div class='homeAll'>
       <div class='homeCont'>
-        <style>{'body { background-color:  #0000FF; }'}</style>
-        <img src={ PKnife } className='knife' alt="I'm handy like a pocket knife" />
+        <Loading />
       </div>
       <div class='homeAbout'>
         <h1>Hi i'm Rachel de la Torre</h1>
