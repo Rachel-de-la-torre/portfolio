@@ -10,9 +10,9 @@ export default class Navbar extends Component {
                 <img src={ Smile } alt="logo" className='smile'/>
               </Link>
               <div className='intLinks'>
-                <Link to="/about">About</Link>
-                <Link to="/work">Work</Link>
-                <Link to="/contact">Contact</Link>
+                <Link class="linkclass" to="/about">About</Link>
+                <Link class="linkclass" to="/work">Work</Link>
+                <Link class="linkclass" to="/contact">Contact</Link>
               </div>
             </nav>
         )
