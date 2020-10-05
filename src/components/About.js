@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../App.scss';
 import { Me } from '../assets/assetsImport';
 import { Linked } from '../assets/assetsImport';
 import { Git } from '../assets/assetsImport';

@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import React, { Component } from 'react';
 import { Smile } from '../assets/assetsImport'; 
 
+
+
 export default class Navbar extends Component {
     render() {
         return (
