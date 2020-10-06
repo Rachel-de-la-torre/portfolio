@@ -5,6 +5,7 @@ import Git from './github.svg';
 import Linked from './linkedin.svg';
 import Call from './contact.png';
 import FMe from './frogme.png';
+import CK from './workLinks/coverKleyer.png'
 
 export {Smile}
 export {PKnife}
@@ -13,3 +14,4 @@ export {Git}
 export {Linked}
 export {Call}
 export {FMe}
+export {CK}

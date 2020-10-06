@@ -3,11 +3,11 @@ import '../App.scss';
 import Projects from './Projects';
 // import { Link } from "react-router-dom";
 import Loading from './Loading';
-import Kleyer from './projects/Kleyer';
-import Mini from './projects/Mini';
-import Nivea from './projects/Nivea';
-import Oromo from './projects/Oromo';
-import Webdev from './projects/Webdev';
+import Kleyer from './Kleyer';
+import Mini from './Mini';
+import Nivea from './Nivea';
+import Oromo from './Oromo';
+import Webdev from './Webdev';
 
 
 
@@ -20,19 +20,19 @@ function Home() {
       <section class='project1'>
         <Kleyer />
       </section>
-      {/* <section class='project2'>
+      <section class='project1'>
         <Mini />
       </section>
-      <section class='project3'>
+      <section class='project1'>
         <Nivea />
       </section>
-      <section class='project4'>
+      <section class='project1'>
         <Oromo />
       </section>
-      <section class='project5'>
+      <section class='project1'>
         <Webdev />
-      </section> */}
-      
+      </section>
+
       {/* <section className="homeProjects">
       <Projects/>
       </section> */}

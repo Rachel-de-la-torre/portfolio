@@ -94,17 +94,22 @@ a:hover{
 
 
 
-.homeProjects{
-  background-color: #0000FF;
-  scroll-snap-align: start;
-  width: 100%;
-  position: sticky;
-  top: 0;
-  
-  &:nth-last-child(1) {
-    height: 100vh;
-  }
-} 
+
+
+.projectCard{
+  padding-top: 10vh;
+  margin: auto;
+  width: 80vw;
+
+}
+
+
+
+
+
+
+
+
 
 
 

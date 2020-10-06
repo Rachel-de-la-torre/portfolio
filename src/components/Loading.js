@@ -11,7 +11,7 @@ export default function Loading() {
                 <div className='homeAboutText'>
                     <h1>Hi <br></br>I'm Rachel de la Torre</h1>
                     <h2>I am a hybrid designer with a background in Media Design & UX/UI</h2>
-                    <Link to="/about">More about me</Link>
+                    <Link to="/about">MORE</Link>
                 </div>
                 <img src={ PKnife }  alt="I'm handy like a pocket knife" />
             </div>

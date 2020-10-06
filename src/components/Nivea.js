@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
-export default class Kleyer extends Component {
+
+export default class Nivea extends Component {
     render() {
         return (
             <div>
-                <h1>CLOUD KLEYER</h1>
+                <h1>NIVEA</h1>
             </div>
         )
     }
