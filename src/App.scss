@@ -1,10 +1,3 @@
-
-
-h1{
-  font-size: 10vw;
-  /* font-weight: bold; */
-}
-
 .nav{
   background: #0000FF;
   padding: 2vh;
@@ -27,66 +20,63 @@ h1{
   font-weight: 500;
 }
 
-// .main_h {
-//   position: fixed;
-//   // max-height: 70px;
-//   z-index: 999;
-//   width: 100%;
-//   padding-top: 17px;
-//   background: none;
-//   overflow: hidden;
-//   -webkit-transition: all 0.3s;
-//   transition: all 0.3s;
-//   opacity: 0;
-//   top: -100px;
-//   padding-bottom: 6px;
-// }
-
-// .open-nav {
-//   max-height: 400px !important;
-//   .mobile-toggle {
-//     transform: rotate(-90deg);
-//     -webkit-transform: rotate(-90deg);
-//   }
-// }
-
-// .sticky {
-//   background-color: #fff;
-//   opacity: 1;
-//   top: 0px;
-//   border-bottom: 1px solid lighten($color, 30%);
-// }
 
 
 
 
 
 
-/* //HOME */
-
-.homeAll {
-  overflow-y: scroll;
-	scroll-snap-type: y mandatory;
-  max-height: 100vh; 
-}
 
 .homeLoad{
   background: #0000FF;
-  display: flex;
-  justify-content: center;
+  margin: auto;
   //this you shall not change! vvv 
   scroll-snap-align: start;
   height: 100vh;
   width: 100%;
   position: sticky;
   top: 0;
-  
   &:nth-last-child(1) {
     height: 100vh;
   }
 } 
 
-.homeAbout{
+.homeAboutText{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  padding-top: 10vh;
+  color: white;
+}
+
+.homeAboutText h1{
+  font-size: 2em;
+}
+
+.homeAboutText h2{
+  margin-top: -5%;
+}
+
+.homeAboutText a{
+  display: flex;
+  justify-content: left;
+  color: white;
+}
+
+a:hover{
+  color: greenyellow;
+}
+
+
+
+
+
+
+
+
+.project1{
   background-color: white;
   //this you shall not change! vvv 
   scroll-snap-align: start;
@@ -94,16 +84,19 @@ h1{
   width: 100%;
   position: sticky;
   top: 0;
-  
   &:nth-last-child(1) {
     height: 100vh;
   }
 } 
 
+
+
+
+
+
 .homeProjects{
   background-color: #0000FF;
   scroll-snap-align: start;
-  // height: 1000vh;
   width: 100%;
   position: sticky;
   top: 0;
@@ -114,15 +107,6 @@ h1{
 } 
 
 
-
-
-
-
-
-.knife {
-  display: flex;
-  width: 100vh;
-}
 
 
 
@@ -180,8 +164,9 @@ h1{
   margin-right: auto;
   width: 80%;
   max-width: 900px;
-  
+  // background: url(./assets/contact.png);
 }
+
 
 .holine {
   display: flex;

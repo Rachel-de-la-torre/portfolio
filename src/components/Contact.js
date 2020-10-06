@@ -5,8 +5,12 @@ import { Linked } from '../assets/assetsImport';
 import { Git } from '../assets/assetsImport';
 
 function Contact() {
+
+
   return (
-    <div className="contact">
+    <div className="contact"   style={{ backgroundImage: `url(${require("../assets/contact.png")})` }}
+    >
+
       <h1>Call me on my cell phone.</h1>
       <h3>+49 1577285311</h3>
       <h3>Rachel.delatorre1@gmail.com</h3>
