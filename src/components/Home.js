@@ -23,6 +23,7 @@ function Home() {
         <Kleyer />
       </section>
       <section class='project1'>
+        <h1>MINI</h1>
         <Mini />
       </section>
       <section class='project1'>
