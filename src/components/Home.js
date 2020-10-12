@@ -8,12 +8,14 @@ import Mini from './Mini';
 import Nivea from './Nivea';
 import Oromo from './Oromo';
 import Webdev from './Webdev';
+import Navbar from './Navbar';
 
 
 
 function Home() {
   return (
-    <div class='homeAll'>
+    <div>
+      <Navbar />
       <section class='homeLoad'>
         <Loading />
       </section>
@@ -32,10 +34,6 @@ function Home() {
       <section class='project1'>
         <Webdev />
       </section>
-
-      {/* <section className="homeProjects">
-      <Projects/>
-      </section> */}
     </div>
 
   );

@@ -13,5 +13,16 @@ code {
     monospace;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  color: blue;
+}
 
+.carousel-indicators{
+  color: blue;
+  opacity: 0.2;
+}
 
+.active{
+  color: blue;
+}

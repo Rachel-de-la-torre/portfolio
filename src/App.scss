@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+  position: fixed;
 }
 .smile{
   width:7vh;
@@ -21,15 +22,21 @@
 }
 
 
+a:hover{
+  color: greenyellow;
+}
 
 
 
-
-
+//------HOME---------HOME-------------------HOME-------------------HOME----------------------HOME-----
 
 .homeLoad{
   background: #0000FF;
   margin: auto;
+  background-image: url(../src/assets/knifeOpen.svg);
+  background-size: contain;
+  background-position-y: 80%;
+  background-repeat: no-repeat;
   //this you shall not change! vvv 
   scroll-snap-align: start;
   height: 100vh;
@@ -55,23 +62,15 @@
   font-size: 2em;
 }
 
-.homeAboutText h2{
-  margin-top: -5%;
-}
-
 .homeAboutText a{
   display: flex;
   justify-content: left;
   color: white;
 }
 
-a:hover{
-  color: greenyellow;
-}
 
 
-
-
+//-------projects-------------projects-------------projects-------------projects-------------projects------
 
 
 
@@ -94,33 +93,38 @@ a:hover{
 
 
 
-
+//----------Cloud Kleyer --------------Cloud Kleyer --------------Cloud Kleyer --------------Cloud Kleyer ---------
 
 .projectCard{
-  padding-top: 10vh;
-  margin: auto;
-  width: 80vw;
+  background-color: #c6c6c6;
+  background-image: url(../src/assets/workLinks/coverKleyer.png);
+  background-position-y: 90%;
+  background-position-x: right;
+  background-size: 80vh;
+  background-repeat: no-repeat;
 
+}
+
+.CardCloudK{
+  width: 30vw;
+  padding-top: 10vh;
+  padding-left: 10vw;
+  // margin: auto;
+  height: 90vh;
+}
+.CardCloudK h1{
+  font-size: 2em;
+  font-weight: 800;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container-fluid{
+  padding-left: -15px;
+  padding-right: -15px;
+}
 
 
 
