@@ -8,34 +8,39 @@ import Mini from './Mini';
 import Nivea from './Nivea';
 import Oromo from './Oromo';
 import Webdev from './Webdev';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 
 
 
 function Home() {
   return (
     <div>
+      {/* <section class="Navigation">
       <Navbar />
-      <section class='homeLoad'>
-        <Loading />
-      </section>
-      <section class='project1'>
-        <Kleyer />
-      </section>
-      <section class='project1'>
-        <h1>MINI</h1>
-        <Mini />
-      </section>
-      <section class='project1'>
-        <Nivea />
-      </section>
-      <section class='project1'>
-        <Oromo />
-      </section>
-      <section class='project1'>
-        <Webdev />
-      </section>
+      </section> */}
+      <div>
+        <section class='homeLoad'>
+          <Loading />
+        </section>
+        <section class='project1'>
+          <Kleyer />
+        </section>
+        <section class='project1'>
+          <h1>MINI</h1>
+          <Mini />
+        </section>
+        <section class='project1'>
+          <Nivea />
+        </section>
+        <section class='project1'>
+          <Oromo />
+        </section>
+        <section class='project1'>
+          <Webdev />
+        </section>
+      </div>
     </div>
+
 
   );
 }

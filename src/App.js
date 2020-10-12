@@ -30,8 +30,8 @@ class App extends React.Component {
     console.log("app user", this.state.user)
    return (
      <div className="app">
-     <BrowserRouter>
-     <Navbar />
+      <BrowserRouter>
+      <Navbar />
       <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/work" component={Home} />

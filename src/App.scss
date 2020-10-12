@@ -3,23 +3,30 @@
   padding: 2vh;
   padding-top: 2%;
   margin: 0;
-  /* width: 100vw; */
   display: flex;
   align-items: center;
   flex-direction: row;
-  position: fixed;
+  position: sticky;
+  width: 100vw;
 }
 .smile{
-  width:7vh;
-  margin-left: 1em;
+  width:4.5vh;
+  margin-left: 1.5em;
+  margin-right: .8vw;
 }
 .linkclass {
-  font-size: 1.3em;
+  font-size: .7em;
   text-decoration: none;
-  margin-left: 3vw;
+  margin-left: 3.5vw;
   color: white;
   font-weight: 500;
 }
+
+.nameWeight{
+  font-weight: 800;
+}
+
+
 
 
 a:hover{
@@ -34,8 +41,9 @@ a:hover{
   background: #0000FF;
   margin: auto;
   background-image: url(../src/assets/knifeOpen.svg);
-  background-size: contain;
+  background-size: 50vh;
   background-position-y: 80%;
+  background-position-x: 90%;
   background-repeat: no-repeat;
   //this you shall not change! vvv 
   scroll-snap-align: start;
