@@ -7,13 +7,16 @@
   align-items: center;
   flex-direction: row;
   position: sticky;
+  top: 0;
   width: 100vw;
 }
+
 .smile{
   width:4.5vh;
   margin-left: 1.5em;
   margin-right: .8vw;
 }
+
 .linkclass {
   font-size: .7em;
   text-decoration: none;
@@ -25,9 +28,6 @@
 .nameWeight{
   font-weight: 800;
 }
-
-
-
 
 a:hover{
   color: greenyellow;
@@ -129,13 +129,20 @@ a:hover{
 
 
 
-.container-fluid{
-  padding-left: -15px;
-  padding-right: -15px;
-}
+// .container-fluid{
+//   padding-left: -15px;
+//   padding-right: -15px;
+// }
 
 
 
+
+// .bkghack{
+//   background: <;
+// }
+
+
+//----------about--------contact-------------about--------contact-------------about--------contact----------
 .about{
   display: block;
   margin-left: auto;
@@ -229,3 +236,39 @@ a:hover{
   min-height: 300px; */
   max-width: 70%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-control-next,
+.carousel-control-prev {
+  color: blue;
+  // width: ;
+}
+
+.carousel-indicators{
+  color: blue;
+  opacity: 0.2;
+}
+
+.active{
+  color: blue;
+}
+
+// .carousel-control-next-icons{
+//   color: blue;
+// }

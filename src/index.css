@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-.carousel-control-next,
+/* .carousel-control-next,
 .carousel-control-prev {
   color: blue;
 }
@@ -26,3 +26,7 @@ code {
 .active{
   color: blue;
 }
+
+.carousel-control-next-icon{
+  color: blue;
+} */

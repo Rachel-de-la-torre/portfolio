@@ -8,6 +8,8 @@ import FMe from './frogme.png';
 import CK from './workLinks/coverKleyer.png';
 import mini1 from './mini1.png';
 import mini2 from './mini2.png';
+import niv1 from './niv1.png';
+import niv2 from './niv2.png';
 
 
 
@@ -22,4 +24,5 @@ export {FMe}
 export {CK}
 export {mini1}
 export {mini2}
-
+export {niv2}
+export {niv1}

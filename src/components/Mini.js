@@ -12,19 +12,19 @@ export default class Mini extends Component {
                     <div className='container-fluids' >  
                         <Carousel>  
                             <Carousel.Item style={{'height':"100vh"}}>  
-                                <img style={{'height':"100%"}}  className="d-block w-100"  src={mini1} />  
+                                <img style={{'height':"100vh"}, {'width':'100vw'}, {'object-fit': 'scale-down'}}  className="d-block w-100"  src={mini1} />  
                                 <Carousel.Caption>  
                                     <h3>Second Demo</h3>  
                                 </Carousel.Caption>  
                             </Carousel.Item>  
                             <Carousel.Item style={{'height':"100vh"}}>  
-                                <img style={{'height':"100%"}} className="d-block w-100" src={mini2}   />  
+                                <img style={{'height':"100vh"}, {'width':'100vw'}, {'object-fit': 'scale-down'}} className="d-block w-100" src={mini2}   />  
                                 <Carousel.Caption>  
                                     <h3>Third Demo</h3>  
                                 </Carousel.Caption>  
                             </Carousel.Item>  
                             <Carousel.Item style={{'height':"100vh"}} >  
-                                <img style={{'height':"100%"}}  className="d-block w-100"  src={ mini1 } />  
+                                <img style={{'height':"100vh"}, {'width':'100vw'}, {'object-fit': 'scale-down'}}  className="d-block w-100"  src={ mini1 } />  
                                 <Carousel.Caption>  
                                     <h3>First Demo </h3>  
                                 </Carousel.Caption>  
