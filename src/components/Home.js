@@ -26,16 +26,19 @@ function Home() {
         <section class='project1'>
           <h1>MINI</h1>
           <h2>Media Design and branded social assets for the digital campain "Open more doors." Mini Sport.</h2>
+          <a href="https://oromo.coffee/">SEE PROJECT</a>
           <Mini />
         </section>
         <section class='project1'>
           <h1>NIVEA</h1>
           <h2>Media Design and branded social assets for the digital campain of Nivea sensitive man stubble balm.</h2>
+          <a href="https://oromo.coffee/">SEE PROJECT</a>
           <Nivea />
         </section>
         <section class='project1'>
           <h1>OROMO</h1>
-          <h2></h2>
+          <h2>I developed the wireframe, UX/ UI for the website and shop, for this subscription based coffee service.</h2>
+          <a href="https://oromo.coffee/">SEE PROJECT</a>
           <Oromo />
         </section>
         <section class='project1'>
