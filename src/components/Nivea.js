@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel'; 
-import niv1 from '../assets/assetsImport';
-import niv2 from '../assets/assetsImport';
+import {niv1} from '../assets/assetsImport';
+import {niv2} from '../assets/assetsImport';
 
 
 export default class Nivea extends Component {

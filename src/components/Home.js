@@ -8,16 +8,14 @@ import Mini from './Mini';
 import Nivea from './Nivea';
 import Oromo from './Oromo';
 import Webdev from './Webdev';
-// import Navbar from './Navbar';
+import Navbar from './Navbar';
 
 
 
 function Home() {
   return (
     <div>
-      {/* <section class="Navigation">
-      <Navbar />
-      </section> */}
+
       <div>
         <section class='homeLoad'>
           <Loading />
@@ -43,6 +41,9 @@ function Home() {
         <section class='project1'>
           <Webdev />
         </section>
+        <section class="Navigation">
+      <Navbar />
+      </section>
       </div>
     </div>
 

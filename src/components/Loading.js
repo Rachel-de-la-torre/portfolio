@@ -1,6 +1,4 @@
 import React from 'react';
-// import { Navbar } from 'react-bootstrap';
-// import { PKnife } from '../assets/assetsImport';
 import { Link } from "react-router-dom";
 
 
