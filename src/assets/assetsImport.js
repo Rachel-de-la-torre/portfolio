@@ -6,6 +6,8 @@ import Linked from './linkedin.svg';
 import Call from './contact.png';
 import FMe from './frogme.png';
 import CK from './workLinks/coverKleyer.png';
+import CK1 from './CK1.png';
+import CK2 from './CK2.png';
 import mini1 from './mini1.png';
 import mini2 from './mini2.png';
 import niv1 from './niv1.png';
@@ -31,3 +33,6 @@ export {niv1}
 export {oro1}
 export {oro2}
 export {oro3}
+export {CK1}
+export {CK2}
+

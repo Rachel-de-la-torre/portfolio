@@ -21,6 +21,9 @@ function Home() {
           <Loading />
         </section>
         <section class='project1'>
+          <h1>CLOUD KLEYER</h1>
+          <h2>UX & UI design of this cloud data storage product.</h2>
+          <a href="https://www.cloudkleyer.de/de/">SEE PROJECT</a>
           <Kleyer />
         </section>
         <section class='project1'>
