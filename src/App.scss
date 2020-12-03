@@ -142,6 +142,26 @@ a:hover{
 
 
 //----------about--------contact-------------about--------contact-------------about--------contact----------
+.homeAboutText2{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  padding-top: 10vh;
+}
+
+.homeAboutText2 h1{
+  font-size: 2em;
+}
+
+.homeAboutText2 a{
+  display: flex;
+  justify-content: left;
+}
+
+
+
 .about{
   display: block;
   margin-left: auto;

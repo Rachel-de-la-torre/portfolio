@@ -6,12 +6,11 @@ import { Git } from '../assets/assetsImport';
 
 function About() {
   return (
-    <div>
+    <div className='LoadAbout'>
       <img className="me" src={ Me } alt="this is me" />
-      <div className='about'>
-        <h2>Hello! My name is</h2>
-        <h1>RACHEL de la Torre</h1>
-        <p>I have a degree in Graphic design from Central Saint Martins and 5+ years work experience as a creative developing UX & UI and Motion Graphics for advertising and digitalization agencies. Most recently I completed a Full Stack Web Development boot-camp at Iron hack in the hopes to take my skills next level. </p>
+      <div className='homeAboutText2'>
+      <h1>Hi,<br></br><div class="nameWeight">I'm Rachel de la Torre.</div></h1>
+        <h3>I have a degree in Graphic design from Central Saint Martins and 5+ years work experience as a creative developing UX & UI and Motion Graphics for advertising and digitalization agencies. Most recently I completed a Full Stack Web Development boot-camp at Iron hack in the hopes to take my skills next level. </h3>
         <div className='Weblinks'>
           <a href="https://www.linkedin.com/in/rachel-de-la-torre-90383573/">
             <img src={ Linked } alt='linkedIn' />
@@ -24,5 +23,8 @@ function About() {
     </div>
   );
 }
+
+
+
 
 export default About;
