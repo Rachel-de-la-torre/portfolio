@@ -6,16 +6,7 @@ import Navbar from './components/Navbar.js';
 import About from './components/About';
 import Contact from './components/Contact';
 import Login from './components/Login';
-// import BootstrapCarousel from './BootstrapCarousel';
-// import Mini from './components/Mini';
-import ProtectedContent from './components/ProtectedContent';
-// // import { Projects } from "./components/Projects";
-// import Kleyer from './components/projects/Kleyer';
-// import ProjectDetail from './components/ProjectDetail';
-// import $ from "jquery";
-
-
-// import ProjectDetail from './components/ProjectDetail';
+import Protect from './components/ProtectedContent';
 
 class App extends React.Component {
   state = {
@@ -39,7 +30,7 @@ class App extends React.Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/contact" component={Contact} /> 
-          <Route exact path="/protected" component={ProtectedContent} />      
+          <Route exact path="/protected" component={Protect} />      
         </Switch>
      </BrowserRouter>
      </div>
