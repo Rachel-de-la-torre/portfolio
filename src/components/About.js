@@ -6,7 +6,7 @@ import { Git } from '../assets/assetsImport';
 
 function About() {
   return (
-    <div className='LoadAbout'>
+    <div>
       <img className="me" src={ Me } alt="this is me" />
       <div className='homeAboutText2'>
       <h1>Hi,<br></br><div class="nameWeight">I'm Rachel de la Torre.</div></h1>

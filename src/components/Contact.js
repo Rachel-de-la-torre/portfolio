@@ -8,13 +8,11 @@ function Contact() {
 
 
   return (
-    <div className="contact"   style={{ backgroundImage: `url(${require("../assets/contact.png")})` }}
-    >
-
-      <h1>Call me on my cell phone.</h1>
-      <h3>+49 1577285311</h3>
-      <h3>Rachel.delatorre1@gmail.com</h3>
-      {/* <img className="holine" src={Call} alt='hotline bling' /> */}
+    <div>
+    <div className='homeAboutText2'>
+    <h1 className='nameWeight'>Call me on my cell phone.</h1>
+      <h3>+49 15774285311</h3>
+      <h3>rachel.delatorre1@gmail.com</h3>
       <div className='Weblinks'>
           <a href="https://www.linkedin.com/in/rachel-de-la-torre-90383573/">
             <img src={ Linked } alt='linkedIn' />
@@ -23,6 +21,8 @@ function Contact() {
             <img src={ Git } alt='GitHub' />
           </a>
         </div>
+        {/* <img className="holine" src={Call} alt='hotline bling' />  */}
+    </div>
     </div>
   );
 }
