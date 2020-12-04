@@ -20,28 +20,23 @@ function Home() {
         <section class='homeLoad'>
           <Loading />
         </section>
-        <section class='project1'>
+        {/* <section class='project1'>
           <h1>Motion</h1>
           <h2>Motion graphics and postproductoin for comercials advertising and brand identity</h2>
           <a href="https://www.cloudkleyer.de/">SEE PROJECT</a>
           <Motion />
-        </section>
-        <section class='project1'>
-          <h1>CLOUD KLEYER</h1>
-          <h2>UX & UI design of this cloud data storage product.</h2>
-          <a href="https://www.cloudkleyer.de/">SEE PROJECT</a>
+        </section> */}
           <Kleyer />
-        </section>
         <section class='project1'>
           <h1>MINI</h1>
           <h2>Media Design and branded social assets for the digital campain "Open more doors." Mini Sport.</h2>
-          <Link to="./ProtectedContent.js">SEE PROJECT</Link>
+          <a href="/protected">SEE PROJECT</a>
           <Mini />
         </section>
         <section class='project1'>
           <h1>NIVEA</h1>
           <h2>Media Design and branded social assets for the digital campain of Nivea sensitive man stubble balm.</h2>
-          <Link to="./ProtectedContent.js">SEE PROJECT</Link>
+          <a href="/protected">SEE PROJECT</a>
           <Nivea />
         </section>
         <section class='project1'>

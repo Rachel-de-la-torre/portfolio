@@ -1,3 +1,26 @@
+// variables
+
+$nav-height: 14vh;
+
+$z-index-list: (
+  default     :   0,
+  nav         : 100,
+);
+
+// mixins
+
+@mixin stick-under-nav{
+  scroll-snap-align: start;
+  position: sticky;
+  top: $nav-height;
+}
+
+@mixin z-index($name) {
+  z-index: map-get($z-index-list, $name);
+}
+
+// actual styles
+
 .nav{
   background: #0000FF;
   padding: 2vh;
@@ -6,9 +29,14 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  position: sticky;
-  top: 0;
+  position: fixed;
   width: 100vw;
+  height: $nav-height;
+  @include z-index(nav)
+}
+
+.content {
+  padding-top: $nav-height;
 }
 
 .smile{
@@ -46,11 +74,9 @@ a:hover{
   background-position-x: 90%;
   background-repeat: no-repeat;
   //this you shall not change! vvv 
-  scroll-snap-align: start;
   height: 100vh;
   width: 100%;
-  position: sticky;
-  top: 0;
+  @include stick-under-nav();
   &:nth-last-child(1) {
     height: 100vh;
   }
@@ -85,17 +111,21 @@ a:hover{
 
 .project1{
   background-color: white;
-  //this you shall not change! vvv 
-  scroll-snap-align: start;
+  //this you shall not change! vvv
   height: 100vh;
   width: 100%;
-  position: sticky;
-  top: 0;
+  @include stick-under-nav();
+  @include z-index(default);
   &:nth-last-child(1) {
     height: 100vh;
   }
-} 
+}
 
+
+.project-head{
+  position: absolute;
+  z-index: 10;
+}
 
 
 
@@ -263,10 +293,8 @@ a:hover{
 
 
 
-.carousel-control-next,
-.carousel-control-prev {
-  color: blue;
-  // width: ;
+.carousel.slide .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'/%3E%3C/svg%3E");
 }
 
 .carousel-indicators{

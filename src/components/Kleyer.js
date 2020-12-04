@@ -23,24 +23,29 @@ import {CK2} from '../assets/assetsImport';
 export default class Kleyer extends Component {
     render() {
         return (
-            <div>
-                <div className='container-fluids' >  
-                    <Carousel>  
-                        <Carousel.Item style={{'object-fit': 'scale-down'}}>  
-                            <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={CK1} />  
-                            <Carousel.Caption>  
-                                <h3>Second Demo</h3>  
-                            </Carousel.Caption>  
-                        </Carousel.Item>  
-                        <Carousel.Item style={{'object-fit': 'scale-down'}}>  
-                            <img style={{'object-fit': 'scale-down'}} className="d-block w-100" src={CK2}   />  
-                            <Carousel.Caption>  
-                                <h3>Third Demo</h3>  
-                            </Carousel.Caption>  
-                        </Carousel.Item>  
-                    </Carousel>  
-                </div>  
+        <section class='project1'>
+            <div className='project-head'>
+                <h1>CLOUD KLEYER</h1>
+                <h2>UX & UI design of this cloud data storage product.</h2>
+                <a href="https://www.cloudkleyer.de/">SEE PROJECT</a>
             </div>
+            <div className='container-fluids' >
+                <Carousel>
+                    <Carousel.Item style={{'object-fit': 'scale-down'}}>
+                        <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={CK1} />
+                        <Carousel.Caption>
+                            <h3>Second Demo</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{'object-fit': 'scale-down'}}>
+                        <img style={{'object-fit': 'scale-down'}} className="d-block w-100" src={CK2}   />
+                        <Carousel.Caption>
+                            <h3>Third Demo</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+        </section>
         )
     }
 }
