@@ -8,7 +8,12 @@ import {niv2} from '../assets/assetsImport';
 export default class Nivea extends Component {
     render() {
         return (
-            <div>
+        <section class='project1'>
+            <div className='project-head'>
+                <h1>NIVEA</h1>
+                <h2>Media Design and branded social assets for the digital campain of Nivea sensitive man stubble balm.</h2>
+                <a href="/protected">SEE PROJECT</a>
+            </div>
                 <div className='container-fluids' >  
                     <Carousel>  
                         <Carousel.Item style={{'height':"100vh"}}>  
@@ -25,7 +30,7 @@ export default class Nivea extends Component {
                         </Carousel.Item>  
                     </Carousel>  
                 </div>  
-            </div>
+        </section>
         )
     }
 }
