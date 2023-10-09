@@ -1,0 +1,527 @@
+// variables
+$smallmobile: 750px;
+$moible: 670px;
+$tablet: 1000px;
+$desktop: 1100px;
+$hidpi: 1600px;
+$accentcolor: #9bafff;
+$accentcolor2: #dcfd1c;
+$accentcolor3:#d5ff56;
+
+
+$nav-height: 9vh;
+
+$z-index-list: (
+  default     :   0,
+  nav         : 100,
+);
+
+// mixins
+
+@mixin stick-under-nav{
+  scroll-snap-align: start;
+  position: sticky;
+  top: $nav-height;
+}
+
+@mixin z-index($name) {
+  z-index: map-get($z-index-list, $name);
+}
+
+// actual styles
+
+.content {
+  padding-top: $nav-height;
+}
+
+// nav
+
+.nav{
+  background: #101010;
+  padding: 2vh;
+  padding-top: 1.5%;
+  padding-bottom: 3%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+  width: 100vw;
+  height: $nav-height;
+  @include z-index(nav)
+}
+
+.linkclass {
+  @media screen and (max-width: $moible) {
+    margin-left: 5vw;
+  }
+  font-weight: 800;
+  font-size: 1em;
+  margin-left: 2vw;
+  color: rgb(110, 110, 110);
+  //this is not the white link you are looking for
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.linkclass:hover {
+  @media screen and (max-width: $moible) {
+    letter-spacing: 0.1em;
+  }
+  transition: transform 1.5s, letter-spacing 1s, font-weight 1s,
+    background-color 1s;
+  letter-spacing: 0.2em;
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+}
+
+.linkclass:focus {
+  color: whitesmoke;
+}
+
+.smile{
+  width:4.5vh;
+  margin-left: 1.5em;
+  margin-right: .8vw;
+  transition: transform 1.5s;
+}
+
+.smile:hover{
+  transform: rotate(180deg);
+  transition: transform 1.5s;
+}
+// VID
+
+.playerwrapper{
+  width: 100%;
+  display: inline-flex;
+  align-self: center;
+}
+
+// links
+
+.linknexttext {
+  font-weight: 700;
+  color: $accentcolor3;
+  // text-decoration:underline;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.linknexttext:hover {
+  transition: transform 1.5s, letter-spacing 1s, font-weight 1s, color 1s,
+    font-weight 1s;
+  letter-spacing: 0.2em;
+  color: $accentcolor3;
+  font-stretch: wider;
+  text-decoration: none;
+}
+
+
+// bold // links // buttons
+
+.nameWeight {
+  font-weight: 800;
+}
+
+.nameWeighta {
+  color: $accentcolor;
+  font-weight: 800;
+}
+.nameWeighta:hover {
+  color: #000000;
+  font-weight: 800;
+  transition: transform 2s, letter-spacing 3s;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+
+.button:hover {
+    transform: translateY(10px);
+    transition: all 0.5s ease-in-out;
+    // color: $accentcolor2;
+    text-decoration: none;
+}
+
+// .button{
+//   // color: $accentcolor;
+// }
+
+
+.nameWeightb {
+  font-weight: 800;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+
+
+
+// about 
+
+
+
+.me {
+  width: 8%;
+  margin-left: 70vw;
+  margin-top: 2em;
+  max-width: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+//contact + about githum linkedin 
+
+.Weblinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.Weblinks img {
+  width: 15vw;
+  padding-right: 2vh;
+  padding-top: 5vh;
+  margin-bottom: 5vh;
+  max-width: 50px;
+}
+
+.title {
+  @media screen and (max-width: $moible) {
+  padding-top: 7vh;
+}
+}
+
+
+// HOME (general bold laylout) ------------------------------------------------------
+
+#knife {
+  size: 40vh;
+  position: fixed;
+  margin-left: 50vw;
+  margin-top: 5vh;
+  width: 950px;
+  @media screen and (max-width: $moible) {
+    visibility: hidden;
+  }
+}
+
+#mknife{
+  visibility: hidden;
+    @media screen and (max-width: $moible) {
+    visibility: visible;
+    margin-top: -20vh;
+    width: 100vw;
+      // @media screen and (max-width: $smallmobile) {
+      // visibility: visible;
+      // margin-top: -19vh;
+      // width: 70vw;
+      // margin-left: auto;
+      // }
+    }
+}
+
+.homeLoad {
+  background: #101010;
+  margin: auto;
+  // background-image: url(../src/assets/knife.json);
+  // background-size: 50vh;
+  // background-position-y: 80%;
+  // background-position-x: 90%;
+  // background-repeat: no-repeat;
+  //this you shall not change! vvv
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  @include stick-under-nav();
+  &:nth-last-child(1) {
+    height: 100vh;
+  }
+}
+
+.homeAboutText{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  padding-top: 10vh;
+  color: rgb(110, 110, 110);
+  @media screen and (max-width: $moible) {
+  margin-left: 10vw;
+  margin-top: -9vh;
+}
+}
+
+.homeAboutText h1{
+  font-size: 2em;
+  @media screen and (max-width: $moible) {
+  margin-top: -5vh;
+  font-size: 1.5em;
+}
+}
+
+.homeAboutText h3 {
+  @media screen and (max-width: $moible) {
+    font-size: 1.5em;
+  }
+}
+
+
+.homeAboutText a{
+  display: flex;
+  justify-content: left;
+  color: $accentcolor3;
+}
+
+.scroll{
+  height: 2.5em;
+  margin-top: .5em;
+  display: inline-flex;
+  align-self: flex-start;
+}
+
+//-------Project card ------------------------------------------------------------------------
+
+.project1 {
+  background-color: rgb(20, 20, 20);
+  position: relative;
+  display: flex;
+  //this you shall not change! vvv
+  height: 100vh;
+  width: 100%;
+  @include stick-under-nav();
+  @include z-index(default);
+  &:nth-last-child(1) {
+    height: 100vh;
+  }
+  @media screen and (max-width: $moible) {
+    flex-direction: column;
+}
+}
+
+.descriptionlink {
+  @media screen and (max-width: $moible) {
+    padding-top: 0em;
+  }
+  padding-top: 2em;
+  margin-right: 3em;
+  // width: 30vw;
+}
+
+.ProsProdLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.homeAboutText2 {
+  @media screen and (min-width: $desktop) {
+    margin-left: 10vh;
+    margin-top: 10vh;
+    width: 50vw;
+  }
+  @media screen and (max-width: $moible) {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: rgb(110, 110, 110);
+}
+
+.homeAboutText2 h1 {
+  @media screen and (max-width: $moible) {
+    font-size: 3em;
+  }
+  font-size: 6em;
+  font-weight: 800;
+}
+
+.homeAboutText2 h2 {
+  @media screen and (max-width: $moible) {
+    font-size: 1.2em;
+  }
+}
+
+.homeAboutText2 a {
+  display: flex;
+  justify-content: left;
+}
+
+.ProjCardImg {
+  display: block;
+  @media screen and (min-width: $desktop) {
+    margin-left: -5%;
+    margin-top: 14%;
+    width: 60vw;
+}
+@media screen and (max-width: $moible) {
+  width: 100vw;
+  margin-top: 14%;
+}
+}
+
+.ProjCardVID {
+  display: block;
+  @media screen and (min-width: $desktop) {
+    margin-left:  -5%;
+    margin-top: 7%;
+    width: 60vw;
+  }
+  @media screen and (max-width: $moible) {
+    width: 100vw;
+    margin-top: 14%;
+  }
+}
+
+
+//------- projects sub page ------------------------------------------------------------------
+
+.ProjAboutText{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  padding-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.ProjAboutText h1{
+  font-size: 6em;
+  font-weight: 800;
+  color: #1d1d1d;
+  @media screen and (max-width: $moible) {
+  font-size: 3em;
+  margin-top: -5vh;
+}
+}
+
+.ProjAboutText a{
+  display: flex;
+  justify-content: left;
+}
+
+.p-icon {
+  // position: absolute;
+  display: flex;
+  // flex-direction: column;
+  width: 4%;
+  column-gap: 1em;
+  margin-bottom: 2%;
+  // right: 0;
+}
+
+.p-icon-solo {
+  width: 1.7em;
+}
+
+
+
+// CAROUSEL
+
+// .carousel.slide .carousel-control-next-icon {
+//   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'/%3E%3C/svg%3E");
+// }
+
+// .carousel-indicators{
+//   color: blue;
+//   opacity: 0.2;
+// }
+
+// .active{
+//   color: blue;
+// }
+
+// .carStyle{
+//   object-fit: 'scale-down';
+//   width: 60%;
+//   display: flex;
+// }
+
+
+
+// TICK
+
+.tick {
+  width: 100%;
+}
+
+
+// work
+
+.projectChild{
+  @media screen and (min-width: $desktop) {
+  width: 20vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: $moible) {
+  width: 100vw;
+  margin-top: 14%;
+}
+}
+
+#work{
+  background-color: rgb(20, 20, 20);
+  @media screen and (min-width: $desktop) {
+  position: fixed;
+}
+}
+
+.project2 {
+  margin: 0 auto;
+  @media screen and (min-width: $desktop) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 9vh;
+  }
+  @media screen and (max-width: $moible) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+  }
+}
+
+.textAllign {
+  text-align: center;
+}
+
+
+
+.player-wrapper {
+  position: relative;
+}
+
+
+.textwidth {
+  @media screen and (min-width: $desktop) {
+width: 50vw;
+
+}
+@media screen and (max-width: $moible) {
+
+}
+}
+
+.gifwidth {
+  @media screen and (min-width: $desktop) {
+  margin-top: 10vh;
+  height: 100%;
+  width: 20vw;
+}
+
+}
+
+.gifgrid {
+  @media screen and (min-width: $desktop) {
+display: flex;
+flex-direction: row;
+gap: 10vw;
+}
+
+}
