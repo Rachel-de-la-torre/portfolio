@@ -15,7 +15,8 @@ export default class Asahii extends Component {
                             Dry and Resident Advisor, powered by Club Qu.</h2>
                         <div className='ProsProdLinks'>
                             <a className="linknexttext" target="_blank" href="https://www.youtube.com/watch?v=rxy8xVKQ6D0&t=1s&ab_channel=ClubQu" rel="noreferrer">OUTCOME</a> <br />
-                            <Link className="linknexttext" to="/Asahi">PROCESS</Link>
+                            {/* <Link className="linknexttext" to="/asahi">PROCESS</Link> */}
+                            <Link to="/asahi">PROCESS</Link>
                         </div>
                     </div>
                 </div>

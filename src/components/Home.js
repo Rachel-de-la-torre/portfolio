@@ -11,10 +11,14 @@ import Reel from './Reel';
 import AllProj from './AllProj';
 import lottie from "lottie-web";
 import {KnifeInv, mknife} from '../assets/assetsImport';
+import About from './About';
 
 
 
 export default function Home() {
+  {
+    window.scrollTo(0, 0)
+  }
   useEffect(() => {
     lottie.loadAnimation({
       container: document.querySelector("#knife"),
@@ -32,7 +36,6 @@ export default function Home() {
         <section className='homeLoad'>
           <Loading />
           <div id="knife" />
-          <div id="mknife" />
         </section>
           <Asahi />
           <Mini />
@@ -41,7 +44,8 @@ export default function Home() {
           <Reel />
           <Oromo />
           <Kleyer />
-          <AllProj />          
+          <About />
+          {/* <AllProj />           */}
     </div>
   );
 }

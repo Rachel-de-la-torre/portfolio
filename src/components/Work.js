@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import {CK1, Asahi, mini2, mini1, niv1, oro1} from '../assets/assetsImport';
+import React from 'react';
+import {CK1, Asahi, mini1, niv1, oro1} from '../assets/assetsImport';
 import { Link } from "react-router-dom";
 import '../App.scss';
 

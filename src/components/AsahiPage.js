@@ -1,11 +1,11 @@
 import React from 'react';
-import {Asahi, asahivid, TOOLCSS, TOOLVUE, TOOLJS, TOOLHTML} from '../assets/assetsImport';
+import {Asahi, TOOLCSS, TOOLVUE, TOOLJS, TOOLHTML} from '../assets/assetsImport';
 // import ReactPlayer from 'react-player'
 
 export default function AsahiPage() {
     return (
         <div>
-         {
+             {
             window.scrollTo(0, 0)
           }
             <div className='ProjAboutText'>

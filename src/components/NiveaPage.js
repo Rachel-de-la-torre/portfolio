@@ -3,6 +3,11 @@ import {niv1,  niv2, Ae, Pr, Ai} from '../assets/assetsImport';
 
 export default function NiveaPage() {
     return (
+        <div>
+             {/* {
+            window.scrollTo(0, 0)
+          }
+         */}
         <div className='ProjAboutText' style={{'margin-bottom':"10rem"}}>
             <h1 class="nameWeight">Nivea Men</h1>
                     <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={niv1} />
@@ -28,6 +33,7 @@ export default function NiveaPage() {
             <h3>This vimeo link displays the
             customer journey. My role was in asset creation.</h3>
             <a className="linknexttext" href="https://vimeo.com/video/368765804">Video</a>  */}
+        </div>
         </div>
     )
 }

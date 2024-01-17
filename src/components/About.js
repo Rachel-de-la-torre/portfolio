@@ -9,7 +9,7 @@ export default class About extends Component {
       {/* <img className="me" src={ me2 } alt="this is me" /> */}
       <div className='ProjAboutText'>
       <h1 style={{'font-size': '3em'}}>Hi,<br></br><div class="nameWeight">my name is Rachel de la Torre.</div></h1>
-        <h3>Overthe past seven years, I've worked in advertising and digital agencies, creating branded campaign assets for web, social media, and commercial campaigns. I studied graphic design at Central Saint Martins where I also first developed my moving image practice. 
+        <h3>Over the past seven years, I've worked in advertising and digital agencies, creating branded campaign assets for web, social media, and commercial campaigns. I studied graphic design at Central Saint Martins where I also first developed my moving image practice. 
           This pandemic I've been learning to code in order to add web design and SVG animation to my toolbox. For instance,<strong> I built this website using React and Node.js!</strong><br/><br/> 
           During my free time, I am a movie lover, With a special interest in horror films. What's your favorite spooky film?<br/><br/>Don’t be shy, say hi!<br/> +49 15774285311<br/>rachel.delatorre1@gmail.com       
         </h3>

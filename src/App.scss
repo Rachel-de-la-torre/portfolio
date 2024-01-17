@@ -39,7 +39,7 @@ $z-index-list: (
 .nav{
   background: #101010;
   padding: 2vh;
-  padding-top: 1.5%;
+  padding-top: 3%;
   padding-bottom: 3%;
   margin: 0;
   display: flex;
@@ -155,8 +155,22 @@ $z-index-list: (
 
 
 
-// about 
-
+.aboutsect{
+  background-color:white;
+  position: relative;
+  display: flex;
+  //this you shall not change! vvv
+  height: 100vh;
+  width: 100%;
+  @include stick-under-nav();
+  @include z-index(default);
+  &:nth-last-child(1) {
+    height: 100vh;
+  }
+  @media screen and (max-width: $moible) {
+    flex-direction: column;
+}
+}
 
 
 .me {
