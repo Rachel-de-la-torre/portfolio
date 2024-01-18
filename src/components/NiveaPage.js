@@ -10,7 +10,7 @@ export default function NiveaPage() {
          */}
         <div className='ProjAboutText' style={{'margin-bottom':"10rem"}}>
             <h1 class="nameWeight">Nivea Men</h1>
-                    <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={niv1} />
+                    <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={niv1} />
             <a className="linknexttext" href="https://vimeo.com/video/368765804">LINK TO PROJECT</a> 
             <br />
             <div class='p-icon'>
@@ -25,7 +25,7 @@ export default function NiveaPage() {
 
             <p className="textwidth">I created 57 unique video assets as a motion graphics and video editor on this campaign, which included 15, 30 and 90 second cut downs of commercials that worked across Instagram stories, carousels, and YouTube.
             </p>
-            <img style={{'object-fit': 'scale-down'}} className="d-block w-100" src={niv2}   />
+            <img style={{'objectFit': 'scale-down'}} className="d-block w-100" src={niv2}   />
 
 
             {/* <img style={{'height':"100vh"}, {'width':'100vw'}}  className="d-block w-100"  src={niv2} />  */}

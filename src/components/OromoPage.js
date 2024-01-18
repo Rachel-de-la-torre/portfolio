@@ -19,7 +19,7 @@ export default function OromoPage() {
             window.scrollTo(0, 0)
           }
             <h1 class="nameWeight">Oromo</h1>
-                    <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={oro1} />  
+                    <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={oro1} />  
             <a className="linknexttext" href="https://oromo.coffee/">LINK TO PROJECT</a> 
             <br /> 
             <div class='p-icon'>
@@ -36,13 +36,13 @@ export default function OromoPage() {
             bean strength, frequency, and preferred brewing
             method.
             </p>
-            <img style={{'object-fit': 'scale-down'}} className="d-block w-100" src={oro2}   />  
+            <img style={{'objectFit': 'scale-down'}} className="d-block w-100" src={oro2}   />  
             {/* <p class="nameWeight">My Solution:</p>   */}
             <p className="textwidth">It was my responsibility to design the user interface, logo animation, 
             and the user journey for the selection process by which the audience could 
             create their ideal coffee profile.
             </p>
-            <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={oro3} />   
+            <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={oro3} />   
             <p className="textwidth">Part of the challenge in the design was connecting the individual 
             coffee profile with the checkout on a subscription basis. This included user routes 
             connected to the selection process.</p>  

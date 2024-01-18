@@ -10,7 +10,7 @@ export default function AsahiPage() {
           }
             <div className='ProjAboutText'>
             <h1 class="title2" >Asahi - Discover Tokyo</h1>
-                    <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={Asahi} />
+                    <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={Asahi} />
              <a className="nameWeighta" href="https://www.youtube.com/watch?v=rxy8xVKQ6D0&t=1s&ab_channel=ClubQu">OUTCOME</a>
             <br />
             <div class='p-icon'>

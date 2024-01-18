@@ -13,7 +13,7 @@ export default class Nivea extends Component {
                     <h2>Media design and branded social assets for Nivea on the digital campain for sensitive man stubble balm.</h2>
                     <div className='ProsProdLinks'>
                     {/* <a className="linknexttext" href="https://vimeo.com/video/368765804">PRODUCT</a>  */}
-                    <Link to="/nivea">PROCESS</Link>
+                    <Link className="linknexttext" to="/nivea">PROCESS</Link>
                     </div>
                 </div>
             </div>

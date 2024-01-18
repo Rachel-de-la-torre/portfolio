@@ -11,11 +11,12 @@ import NiveaPage from './components/NiveaPage';
 import MiniPage from './components/MiniPage';
 import Tick from './components/Tick';
 import Reel from './components/Reel';
-
+import AllProj from './components/AllProj';
 
 function App() {
   return (
-    <BrowserRouter>
+    <section className='ultraBKG'>
+      <BrowserRouter>
       <Navbar />
       {/* <Home /> */}
         <Routes>
@@ -27,8 +28,10 @@ function App() {
           <Route path="/asahi" element={<AsahiPage  />} />
           <Route path="/nivea" element={<NiveaPage />} />
           <Route path="/mini" element={<MiniPage />} />
+          <Route path="/AllProjects" element={<AllProj />} />
         </Routes>
     </BrowserRouter>
+    </section>
   );
 }
 

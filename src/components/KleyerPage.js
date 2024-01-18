@@ -11,7 +11,7 @@ export default function KleyerPage() {
   }
             <h1 class="nameWeight">Cloudkleyer</h1>
 
-                <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={CK1} />
+                <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={CK1} />
                 <br />
                 <div class='p-icon'>
                     <img class="p-icon-solo" src={Sketch} />
@@ -34,7 +34,7 @@ export default function KleyerPage() {
             needs were determined, we moved into the wireframe phase, followed by prototypes 
             and user testing. Once the user flow was established, we integrated the CI and 
             interactivity design, including buttons, artifacts, and motion graphics. </p>
-                    <img style={{'object-fit': 'scale-down'}} className="d-block w-100" src={CK2}   />
+                    <img style={{'objectFit': 'scale-down'}} className="d-block w-100" src={CK2}   />
 
 
         </div>

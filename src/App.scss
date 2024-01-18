@@ -232,6 +232,10 @@ $z-index-list: (
     }
 }
 
+.ultraBKG {
+  background-color: #101010;
+}
+
 .homeLoad {
   background: #101010;
   margin: auto;
@@ -397,7 +401,7 @@ $z-index-list: (
   flex-direction: column;
   position: relative;
   margin: auto;
-  padding-top: 10vh;
+  padding-top: 15vh;
   margin-bottom: 10vh;
 }
 
@@ -448,7 +452,7 @@ $z-index-list: (
 // }
 
 // .carStyle{
-//   object-fit: 'scale-down';
+//   objectFit: 'scale-down';
 //   width: 60%;
 //   display: flex;
 // }

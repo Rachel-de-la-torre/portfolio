@@ -8,8 +8,8 @@ export default function MiniPage() {
             window.scrollTo(0, 0)
          }
             <h1 class="nameWeight">MINI</h1>
-                    <img style={{'object-fit': 'scale-down'}}  className="d-block w-100"  src={mini1} />  
-                    <img style={{'object-fit': 'scale-down'}} className="d-block w-100" src={mini2}   />  
+                    <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={mini1} />  
+                    <img style={{'objectFit': 'scale-down'}} className="d-block w-100" src={mini2}   />  
             <div class='p-icon'>
                 <img class="p-icon-solo" src={Ai} />
                 <img class="p-icon-solo" src={Pr} />

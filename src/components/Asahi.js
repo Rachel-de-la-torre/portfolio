@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { SAsahi } from '../assets/assetsImport';
 import { Link } from 'react-router-dom';
-// import { Fun } from '../assets/assetsImport';
+import {Ticker} from 'react-ticker-tape'
 
 
 export default class Asahii extends Component {
@@ -16,7 +16,7 @@ export default class Asahii extends Component {
                         <div className='ProsProdLinks'>
                             <a className="linknexttext" target="_blank" href="https://www.youtube.com/watch?v=rxy8xVKQ6D0&t=1s&ab_channel=ClubQu" rel="noreferrer">OUTCOME</a> <br />
                             {/* <Link className="linknexttext" to="/asahi">PROCESS</Link> */}
-                            <Link to="/asahi">PROCESS</Link>
+                            <Link className="linknexttext" to="/asahi">PROCESS</Link>
                         </div>
                     </div>
                 </div>

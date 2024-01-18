@@ -12,8 +12,7 @@ import AllProj from './AllProj';
 import lottie from "lottie-web";
 import {KnifeInv, mknife} from '../assets/assetsImport';
 import About from './About';
-
-
+import {Ticker} from 'react-ticker-tape'
 
 export default function Home() {
   {
@@ -37,6 +36,7 @@ export default function Home() {
           <Loading />
           <div id="knife" />
         </section>
+          <Ticker text='STUDO IOR IS THE COOLEST DESIGN STUDIO IN BERLIN!' />
           <Asahi />
           <Mini />
           <Nivea />
