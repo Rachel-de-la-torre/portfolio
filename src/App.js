@@ -19,14 +19,7 @@ function App() {
   return (
     <section className='ultraBKG'>
       <BrowserRouter>
-      <section style={{ position: 'relative', zIndex: '1' }}>
-      <Ticker bg="blue" color="white" fix="bottom" animationSpeed="20" text='HIRE ME!' />
-      {/* <Ticker fix="bottom" animationSpeed="20" text="I'M EMPLOYABLE!" /> */}
-      <Ticker fix="left" animationSpeed="20" text="!" />
-      <Ticker bg="#dcfd1c" color="black" fix="right" animationSpeed="20" text="DREAM TEAM" />
       <Navbar />
-      </section>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

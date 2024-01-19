@@ -48,13 +48,10 @@ $z-index-list: (
   position: fixed;
   width: 100vw;
   height: $nav-height;
-  // @include z-index(nav)
+  @include z-index(nav)
 }
 
-.navtick{
-  flex-direction: column;
-  position: fixed;
-}
+
 
 .linkclass {
   @media screen and (max-width: $moible) {
@@ -157,7 +154,12 @@ $z-index-list: (
   transition: all 0.4s ease-in-out 0s;
 }
 
-
+.ticker {
+  @media screen and (max-width: $moible) {
+    visibility:hidden;
+    display: none;
+  }
+}
 
 
 .aboutsect{
@@ -389,11 +391,11 @@ $z-index-list: (
   @media screen and (min-width: $desktop) {
     margin-left:  -5%;
     margin-top: 7%;
-    width: 60vw;
+    width: 50vw;
   }
   @media screen and (max-width: $moible) {
-    width: 100vw;
-    margin-top: 14%;
+    // width: 20vw;
+    // margin-top: 14%;
   }
 }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactPlayer from "react-player"
 
 export default function Reel() {
   return <div className='project1'>
@@ -10,7 +9,7 @@ export default function Reel() {
                     </div>
                 </div>
              <div className='ProjCardVID'>
-                <iframe src="https://player.vimeo.com/video/205921835?h=1f219c4444" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/205921835?h=1f219c4444"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
              </div>
         </div>;
 }
