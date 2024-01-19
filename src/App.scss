@@ -48,7 +48,12 @@ $z-index-list: (
   position: fixed;
   width: 100vw;
   height: $nav-height;
-  @include z-index(nav)
+  // @include z-index(nav)
+}
+
+.navtick{
+  flex-direction: column;
+  position: fixed;
 }
 
 .linkclass {
@@ -403,6 +408,11 @@ $z-index-list: (
   margin: auto;
   padding-top: 15vh;
   margin-bottom: 10vh;
+  // background-color: white;
+}
+
+.projbkg{
+  background-color: white;
 }
 
 .ProjAboutText h1{

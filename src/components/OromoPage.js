@@ -2,18 +2,17 @@ import React, { useEffect } from 'react';
 import {oro1, oro2, oro3, Sketch, Ae, Ai, O_Logo} from '../assets/assetsImport';
 import lottie from "lottie-web";
 
+
 export default function OromoPage() {
-    {
-        window.scrollTo(0, 0)
-      }
+
     useEffect(() => {
     lottie.loadAnimation({
       container: document.querySelector("#O_Logo"),
       animationData: O_Logo,
     });
-  }, []);
-
+    }, []);
     return (
+      <div className='projbkg'>
         <div className='ProjAboutText'>
         {
             window.scrollTo(0, 0)
@@ -46,9 +45,9 @@ export default function OromoPage() {
             <p className="textwidth">Part of the challenge in the design was connecting the individual 
             coffee profile with the checkout on a subscription basis. This included user routes 
             connected to the selection process.</p>  
-             <div id="O_Logo" style={{ width: "90%", margin: "0 auto"}}/>
-            
+            <div id="O_Logo" style={{ width: "90%", margin: "0 auto"}}/>
         </div>
+      </div>
     )
 }
 

@@ -9,16 +9,24 @@ import OromoPage from './components/OromoPage';
 import AsahiPage from './components/AsahiPage';
 import NiveaPage from './components/NiveaPage';
 import MiniPage from './components/MiniPage';
-import Tick from './components/Tick';
-import Reel from './components/Reel';
+import SiemensPage from './components/SiemensPage';
+// import Reel from './components/Reel';
 import AllProj from './components/AllProj';
+import {Ticker} from 'react-ticker-tape'
+
 
 function App() {
   return (
     <section className='ultraBKG'>
       <BrowserRouter>
+      <section style={{ position: 'relative', zIndex: '1' }}>
+      <Ticker bg="blue" color="white" fix="bottom" animationSpeed="20" text='HIRE ME!' />
+      {/* <Ticker fix="bottom" animationSpeed="20" text="I'M EMPLOYABLE!" /> */}
+      <Ticker fix="left" animationSpeed="20" text="!" />
+      <Ticker bg="#dcfd1c" color="black" fix="right" animationSpeed="20" text="DREAM TEAM" />
       <Navbar />
-      {/* <Home /> */}
+      </section>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -28,6 +36,7 @@ function App() {
           <Route path="/asahi" element={<AsahiPage  />} />
           <Route path="/nivea" element={<NiveaPage />} />
           <Route path="/mini" element={<MiniPage />} />
+          <Route path="/siemens" element={<SiemensPage />} />
           <Route path="/AllProjects" element={<AllProj />} />
         </Routes>
     </BrowserRouter>
@@ -36,38 +45,3 @@ function App() {
 }
 
 export default App
-
-
-
-// class App extends React.Component {
-
-//   render() {
-//    return (
-//     <div className="app">
-//     <BrowserRouter>
-//     <Navbar />
-//     <Home />
-//     <div className="content">
-//       <Routes>
-//         <Route exact path="/home" component={Home} />
-//         <Route exact path="/about" component={About} />
-//         <Route exact path="/contact" component={Contact} />
-//         <Route exact path="/cloud-klyer" component={KleyerPage} />
-//         <Route exact path="/oromo" component={OromoPage} />
-//         <Route exact path="/asahi" component={AsahiPage} />
-//         <Route exact path="/nivea" component={NiveaPage} />
-//         <Route exact path="/mini" component={MiniPage} />
-//         <Route exact path="/Dev" component={Dev} />
-//         <Route exact path="/AllProjects" component={AllProj} />
-//         <Route exact path="/links" component={Tick} />
-//         <Route exact path="/work" component={Work} />
-//         <Route exact path="/Reel" component={Reel} />
-//       </Routes>
-//     </div>
-//    </BrowserRouter>
-//    </div>
-//  );
-//  }
-// }
-
-// export default App;

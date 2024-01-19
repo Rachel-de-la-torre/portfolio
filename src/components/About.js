@@ -1,10 +1,13 @@
 import '../App.scss';
 import {Linked2, Git2} from '../assets/assetsImport';
 import React, { Component } from 'react';
+// import {Ticker} from 'react-ticker-tape'
+
 
 export default class About extends Component {
   render() {
     return (
+      <div> 
       <section className='aboutsect'>
       {/* <img className="me" src={ me2 } alt="this is me" /> */}
       <div className='ProjAboutText'>
@@ -23,6 +26,7 @@ export default class About extends Component {
         </div>
       </div>
     </section>
+    </div>
     )
   }
 }

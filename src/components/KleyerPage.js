@@ -4,11 +4,11 @@ import lottie from "lottie-web";
 
 export default function KleyerPage() {
     return (
-        
+        <div className='projbkg' >
         <div className='ProjAboutText'>
- {
-    window.scrollTo(0, 0)
-  }
+            {
+                window.scrollTo(0, 0)
+            }
             <h1 class="nameWeight">Cloudkleyer</h1>
 
                 <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={CK1} />
@@ -35,8 +35,7 @@ export default function KleyerPage() {
             and user testing. Once the user flow was established, we integrated the CI and 
             interactivity design, including buttons, artifacts, and motion graphics. </p>
                     <img style={{'objectFit': 'scale-down'}} className="d-block w-100" src={CK2}   />
-
-
+        </div>
         </div>
     )
 }

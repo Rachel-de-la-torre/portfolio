@@ -13,8 +13,8 @@ export default class Siemens extends Component {
                     <div className="descriptionlink">
                         <h2>Conceptualization to exicution of the Siemens Microgrid managment solutions infographic Animation</h2>
                         <div className='ProsProdLinks'>
-                            <a className="linknexttext" target="_blank" href="https://www.siemens.com/global/en/products/energy/grid-software/operation/grid-control/spectrum-power-mgms.html" rel="noreferrer">OUTCOME</a> <br/>
-                            <Link className="linknexttext" to="/Asahi">PROCESS</Link>
+                            {/* <a className="linknexttext" target="_blank" href="https://www.siemens.com/global/en/products/energy/grid-software/operation/grid-control/spectrum-power-mgms.html" rel="noreferrer">OUTCOME</a> <br/> */}
+                            <Link className="linknexttext" to="/Siemens">PROCESS</Link>
                         </div>
                     </div>
                 </div>

@@ -24,19 +24,19 @@ export default function Home() {
       animationData: KnifeInv,
     });
   }, []);
-    useEffect(() => {
-    lottie.loadAnimation({
-      container: document.querySelector("#mknife"),
-      animationData: mknife,
-    });
-  }, []);
+  //   useEffect(() => {
+  //   lottie.loadAnimation({
+  //     container: document.querySelector("#mknife"),
+  //     animationData: mknife,
+  //   });
+  // }, []);
   return (
     <div>
         <section className='homeLoad'>
           <Loading />
           <div id="knife" />
         </section>
-          <Ticker text='STUDO IOR IS THE COOLEST DESIGN STUDIO IN BERLIN!' />
+          {/* <Ticker animationSpeed="20" text='SCROLL FOR PAST JOBS!' /> */}
           <Asahi />
           <Mini />
           <Nivea />
