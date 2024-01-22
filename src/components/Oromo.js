@@ -13,7 +13,7 @@ export default class Oromo extends Component {
                     <div className="descriptionlink">
                         <h2>UX & UI design for Oromo, a subscription based coffee service.</h2>
                         <div className='ProsProdLinks'>
-                            <a className="linknexttext" target="_blank" href="https://oromo.coffee/" rel="noreferrer">OUTCOME</a> <br/>
+                            {/* <a className="linknexttext" target="_blank" href="https://oromo.coffee/" rel="noreferrer">OUTCOME</a> <br/> */}
                             <Link className="linknexttext" to="/Oromo">PROCESS</Link>
                         </div>
                     </div>

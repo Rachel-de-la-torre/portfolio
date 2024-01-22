@@ -19,7 +19,7 @@ export default function KleyerPage() {
                     <img class="p-icon-solo" src={Ai} />
                 </div>
                 <p class="nameWeight">Agency: W11 Network</p>
-                <a className="nameWeighta" target="_blank" href="https://www.cloudkleyer.de/" rel="noreferrer">OUTCOME</a> <br />
+                <a className="nameWeighta" target="_blank" href="https://www.cloudkleyer.de/" rel="noreferrer">WEBSITE OUTCOME</a> <br />
             <p className="textwidth">
             Cloud Kleyer provides cyber security, IT services, and cloud storage.
             Because the client offers a range of services, the challenge was to design 

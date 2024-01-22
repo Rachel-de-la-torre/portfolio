@@ -32,6 +32,9 @@ export default function Home() {
   // }, []);
   return (
     <div>
+        {
+        window.scrollTo(0, 0)
+        }
         <section className='homeLoad'>
           <Loading />
           <div id="knife" />

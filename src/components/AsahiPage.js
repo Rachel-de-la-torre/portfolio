@@ -26,6 +26,9 @@ export default function AsahiPage() {
                 45 minute experience, developed using Off-World and Spatial Audio technology was soundtracked by original 
                 music composed by 3 world-class electronic music artists.
                 </p>
+                <p className="textwidth" >I worked with a team of designers (Stuio IOR50) and game engine developers to realize the virtual club experience.
+                As the lead front-end developer on the project I took user interface design layouts from Studio IOR50 and developed them into fully interactive web pages, using React, that worked seamlessly on both desktop and mobile to bring the virtual clubbing experience to life.
+                </p>
                 <div className='playerwrapper'>
                     <ReactPlayer 
                     url= {asahivid}
@@ -35,10 +38,6 @@ export default function AsahiPage() {
                     height = "100vh"
                     />
                 </div>
-
-                <p className="textwidth" >I worked with a team of designers (Stuio IOR50) and game engine developers to realize the virtual club experience.
-                As the lead front-end developer on the project I took user interface design layouts from Studio IOR50 and developed them into fully interactive web pages, using React, that worked seamlessly on both desktop and mobile to bring the virtual clubbing experience to life.
-                </p>
             </div>
         </div>
     )

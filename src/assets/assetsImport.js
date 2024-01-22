@@ -37,7 +37,9 @@ import O_Logo from './oromo-logo.json';
 import mknife from './mobileknife.json';
 import asahivid from './walkthrough.mp4';
 import scroll from './scroll.svg';
+import minivid1 from './minivid1.mp4'
 
+export {minivid1}
 export {scroll}
 export {SMini}
 export {SNivea}

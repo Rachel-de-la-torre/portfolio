@@ -13,7 +13,6 @@ export default class Kleyer extends Component {
                 <div className='descriptionlink'>
                     <h2 >UX & UI design for Cloud Kleyer, a cloud data storage product.</h2>
                     <div className='ProsProdLinks'>
-                        <a className="linknexttext" target="_blank" href="https://www.cloudkleyer.de/#" rel="noreferrer">OUTCOME</a> <br />
                         <Link className="linknexttext" to="/cloud-klyer">PROCESS</Link>
                     </div>
                 </div>
