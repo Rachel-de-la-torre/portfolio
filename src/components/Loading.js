@@ -9,10 +9,13 @@ export default function Loading() {
       }
     return (  
         <div className='homeAboutText'>
-             <h1>Hi,<br></br> <div><Link class="linknexttext" to="/about">I'm Rachel de la Torre.</Link></div></h1>
+             <h1>Hi,<br></br> <div><Link class="linknexttext" to="/about">I'm Rachel de la Torre.</Link></div>
+             </h1><Link className="linknexttext" to="/about">MORE</Link> 
              <h3>I'm a Graphic and Motion Designer with 8+ years experience in for advertising.</h3>
-             <Link className="linknexttext" to="/about">MORE</Link> 
+             {/* <Link className="linknexttext" to="/about">MORE</Link>  */}
+             <h4>Scroll to see my work.</h4>
              <img className="button scroll" src={scroll} />
+
         </div>
     )
 }
