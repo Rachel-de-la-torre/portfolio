@@ -46,6 +46,8 @@ import MHNV from './MHNV.mp4';
 import MHNV2 from './MHNV2.mp4';
 import MHNV3 from './MHNV3.mp4';
 import HYT from './Hyatt.mp4';
+import OR404 from './404.mp4';
+import ORV1 from './OROV1.mp4';
 
 export {minivid1}
 export {scroll}
@@ -90,6 +92,9 @@ export {MHNV}
 export {MHNV2}
 export {MHNV3}
 export {HYT}
+export {OR404}
+export {ORV1}
+
 
 export {Knife}
 export {Pr}

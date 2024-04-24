@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import {oro1, oro2, oro3, Sketch, Ae, Ai, O_Logo} from '../assets/assetsImport';
+import {oro1, oro2, oro3, OR404, ORV1, Sketch, Ae, Ai, O_Logo} from '../assets/assetsImport';
 import lottie from "lottie-web";
+import ReactPlayer from 'react-player'
 
 
 export default function OromoPage() {
@@ -35,12 +36,30 @@ export default function OromoPage() {
             bean strength, frequency, and preferred brewing
             method.
             </p>
+            <div style={{paddingTop: '7%'}}className='playerwrapper'>
+                        <ReactPlayer 
+                        url= {ORV1}
+                        loop = {true}
+                        playing = {true}
+                        width = "100vw"
+                        height = "80vh"
+                        />
+            </div>  
             <img style={{'objectFit': 'scale-down'}} className="d-block w-100" src={oro2}   />  
             {/* <p class="nameWeight">My Solution:</p>   */}
             <p className="textwidth">It was my responsibility to design the user interface, logo animation, 
             and the user journey for the selection process by which the audience could 
             create their ideal coffee profile.
             </p>
+            <div className='playerwrapper'>
+                        <ReactPlayer 
+                        url= {OR404}
+                        loop = {true}
+                        playing = {true}
+                        width = "100vw"
+                        height = "80vh"
+                        />
+            </div>  
             <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={oro3} />   
             <p className="textwidth">Part of the challenge in the design was connecting the individual 
             coffee profile with the checkout on a subscription basis. This included user routes 
