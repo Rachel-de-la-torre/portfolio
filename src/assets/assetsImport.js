@@ -37,7 +37,15 @@ import O_Logo from './oromo-logo.json';
 import mknife from './mobileknife.json';
 import asahivid from './walkthrough.mp4';
 import scroll from './scroll.svg';
-import minivid1 from './minivid1.mp4'
+
+import minivid1 from './minivid1.mp4';
+import W11 from './W11.json';
+import CKV1 from './CKlogo1.mp4';
+import CKV2 from './CKlogo2.mp4';
+import MHNV from './MHNV.mp4';
+import MHNV2 from './MHNV2.mp4';
+import MHNV3 from './MHNV3.mp4';
+import HYT from './Hyatt.mp4';
 
 export {minivid1}
 export {scroll}
@@ -47,6 +55,7 @@ export {SAsahi}
 export {asahivid}
 export {mknife}
 export {O_Logo}
+export {W11}
 export {Sie1}
 export {me2}
 export {Sketch}
@@ -74,6 +83,14 @@ export {oro2}
 export {oro3}
 export {CK1}
 export {CK2}
+
+export {CKV1}
+export {CKV2}
+export {MHNV}
+export {MHNV2}
+export {MHNV3}
+export {HYT}
+
 export {Knife}
 export {Pr}
 export {Ae}

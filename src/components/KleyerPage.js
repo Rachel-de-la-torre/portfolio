@@ -1,6 +1,7 @@
 import React, { useEffect} from 'react';
-import {Ae, CK1, Sketch, CK2, Ai} from '../assets/assetsImport';
+import {Ae, CKV1, CKV2, CK1, Sketch, CK2, Ai} from '../assets/assetsImport';
 import lottie from "lottie-web";
+import ReactPlayer from 'react-player'
 
 export default function KleyerPage() {
     return (
@@ -27,6 +28,16 @@ export default function KleyerPage() {
             range of services offered. I worked closely with a team of designers to 
             design the UX & UI of this project.
             </p>
+
+                <div  style={{padding: '10%'}} className='playerwrapper'>
+                    <ReactPlayer 
+                    url= {CKV2}
+                    loop = {true}
+                    playing = {true}
+                    width = "100vw"
+                    height = "60vh"
+                    />
+                </div>  
             {/* <p class="nameWeight">My Solution:</p> */}
             <p className="textwidth" >The first step of my endeavor was to research the company and its clients 
             in order to determine the needs of the project, an easy way to find a data 
@@ -36,6 +47,15 @@ export default function KleyerPage() {
             interactivity design, including buttons, artifacts, and motion graphics. </p>
                     <img style={{'objectFit': 'scale-down'}} className="d-block w-100" src={CK2}   />
         </div>
+        <div style={{marginTop: '-9vh', marginBottom: '15vh'}}className='playerwrapper'>
+                    <ReactPlayer 
+                    url= {CKV1}
+                    loop = {true}
+                    playing = {true}
+                    width = "100vw"
+                    height = "60vh"
+                    />
+                </div>  
         </div>
     )
 }

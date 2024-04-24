@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function Reel() {
   return <div className='project1'>
@@ -7,6 +8,7 @@ export default function Reel() {
                     <div className="descriptionlink">
                         <h2>Heres a selection of some spots I've contributed post production on.</h2>
                     </div>
+                    <Link className="linknexttext" to="/motion">SAMPELS</Link>
                 </div>
              <div className='ProjCardVID'>
                 <iframe src="https://player.vimeo.com/video/205921835?h=1f219c4444"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

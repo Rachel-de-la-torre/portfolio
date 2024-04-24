@@ -10,14 +10,21 @@ export default function MiniPage() {
                 window.scrollTo(0, 0)
             }
                 <h1 class="nameWeight">MINI</h1>
-                <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={mini1} />  
-
+                <div className='playerwrapper'>
+                    <ReactPlayer 
+                    url= {minivid1}
+                    loop = {true}
+                    playing = {true}
+                    width = "100vw"
+                    height = "60vh"
+                    />
+                    </div>  
+                    <p class="nameWeight">Agency: KKLD*</p>
                     <div class='p-icon'>
                         <img class="p-icon-solo" src={Ai} />
                         <img class="p-icon-solo" src={Pr} />
                         <img class="p-icon-solo" src={Ae} />
                     </div>
-                    <p class="nameWeight">Agency: KKLD*</p>
                     {/* <p class="nameWeight">The Brief:</p> */}
                     <p className="textwidth"> The “Open more doors“ digital campaign was a social media campaign promoting the MINI CLUBMAN model.</p>
                     {/* <p class="nameWeight">My Solution:</p>  */}
@@ -26,16 +33,7 @@ export default function MiniPage() {
                     static images and copy. My role in this project was to use the existing video stock and visual 
                     guidelines to interpret the mood boards and develop the animation.
                     </p>
-
-                    <div className='playerwrapper'>
-                    <ReactPlayer 
-                    url= {minivid1}
-                    loop = {true}
-                    playing = {true}
-                    width = "100vw"
-                    height = "100vh"
-                    />
-                    </div>  
+                    <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={mini1} />  
             </div>
         </div>
     )

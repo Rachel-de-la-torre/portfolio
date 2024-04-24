@@ -10,7 +10,7 @@ import AsahiPage from './components/AsahiPage';
 import NiveaPage from './components/NiveaPage';
 import MiniPage from './components/MiniPage';
 import SiemensPage from './components/SiemensPage';
-// import Reel from './components/Reel';
+import Motion from './components/MotionDesign';
 import AllProj from './components/AllProj';
 import {Ticker} from 'react-ticker-tape'
 
@@ -29,6 +29,7 @@ function App() {
           <Route path="/asahi" element={<AsahiPage  />} />
           <Route path="/nivea" element={<NiveaPage />} />
           <Route path="/mini" element={<MiniPage />} />
+          <Route path="/motion" element={<Motion />} />
           <Route path="/siemens" element={<SiemensPage />} />
           <Route path="/AllProjects" element={<AllProj />} />
         </Routes>
