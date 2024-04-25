@@ -397,15 +397,16 @@ $z-index-list: (
 .ProjCardVID {
   display: block;
   @media screen and (min-width: $desktop) {
-    margin-left:  -5%;
-    margin-top: 7%;
-    width: 50vw;
+    margin-left: -3%;
+    margin-top: 15%;
+    // height: 80vh
   }
   @media screen and (max-width: $moible) {
-    // width: 20vw;
-    // margin-top: 14%;
+    width: 20vw;
+    margin-top: 14%;
   }
 }
+
 
 
 //------- projects sub page ------------------------------------------------------------------

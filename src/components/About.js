@@ -8,11 +8,11 @@ export default class About extends Component {
   render() {
     return (
       <div className='project1'> 
-      <div className='ticker'>
+      {/* <div className='ticker'>
         <Ticker bg="blue" color="white" fix="bottom" animationSpeed="20" text='HIRE ME!' />
         <Ticker fix="left" animationSpeed="20" text="!" />
         <Ticker bg="#dcfd1c" color="black" fix="right" animationSpeed="20" text="DREAM TEAM" />
-      </div>
+      </div> */}
       <section className='aboutsect'>
       <div className='ProjAboutText'>
       <h1 style={{'font-size': '3em'}}>Hi,<br></br><div class="nameWeight">my name is Rachel de la Torre.</div></h1>

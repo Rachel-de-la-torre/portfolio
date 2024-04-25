@@ -9,9 +9,9 @@ export default function Reel() {
                         <h2>Heres a selection of some spots I've contributed post production on.</h2>
                     </div>
                     <Link className="linknexttext" to="/motion">SAMPELS</Link>
-                </div>
-             <div className='ProjCardVID'>
-                <iframe src="https://player.vimeo.com/video/205921835?h=1f219c4444"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+             <div className='ProjCardVID' >
+                <iframe src="https://player.vimeo.com/video/205921835?h=1f219c4444"  width="620" height="348.75" allow="autoplay; fullscreen; picture-in-picture" ></iframe>
              </div>
         </div>;
 }
