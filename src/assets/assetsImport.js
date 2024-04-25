@@ -17,6 +17,7 @@ import niv2 from './niv2.png';
 import oro1 from './oro1.png';
 import oro2 from './oro2.png';
 import oro3 from './oro3.png';
+import oro4 from './oro4.png';
 import Knife from './knife.json';
 import Asahi2 from './asahi2.png';
 import Asahi from './asahi.png';
@@ -47,7 +48,10 @@ import MHNV2 from './MHNV2.mp4';
 import MHNV3 from './MHNV3.mp4';
 import HYT from './Hyatt.mp4';
 import OR404 from './404.mp4';
+import OROV2 from './OROV2.mp4';
+import OROV3 from './OROV3.mp4';
 import ORV1 from './OROV1.mp4';
+import PRSV from './praise.mp4';
 
 export {minivid1}
 export {scroll}
@@ -83,6 +87,7 @@ export {niv1}
 export {oro1}
 export {oro2}
 export {oro3}
+export {oro4}
 export {CK1}
 export {CK2}
 
@@ -94,6 +99,9 @@ export {MHNV3}
 export {HYT}
 export {OR404}
 export {ORV1}
+export {OROV2}
+export {OROV3}
+export {PRSV}
 
 
 export {Knife}

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import {oro1, oro2, oro3, OR404, ORV1, Sketch, Ae, Ai, O_Logo} from '../assets/assetsImport';
+import {oro1, oro2, oro3, oro4, OR404, ORV1, Sketch, Ae, Ai, O_Logo} from '../assets/assetsImport';
 import lottie from "lottie-web";
 import ReactPlayer from 'react-player'
 
@@ -65,6 +65,7 @@ export default function OromoPage() {
             coffee profile with the checkout on a subscription basis. This included user routes 
             connected to the selection process.</p>  
             <div id="O_Logo" style={{ width: "90%", margin: "0 auto"}}/>
+            <img style={{'objectFit': 'scale-down'}}  className="d-block w-100"  src={oro4} />   
         </div>
       </div>
     )

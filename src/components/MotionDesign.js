@@ -1,4 +1,4 @@
-import {CKV1, CKV2, MHNV, MHNV2, MHNV3, HYT, minivid1, Ai, Pr, Ae} from '../assets/assetsImport';
+import {CKV1, CKV2, MHNV, MHNV2, MHNV3, HYT, PRSV, OROV2, OROV3, minivid1, Ai, Pr, Ae} from '../assets/assetsImport';
 import React, { useEffect } from 'react';
 import ReactPlayer from 'react-player'
 import lottie from "lottie-web";
@@ -70,6 +70,30 @@ export default function MiniPage() {
                         loop = {true}
                         playing = {true}
                         width = "25vw"
+                        />
+                    </div>  
+                    <div style={{paddingLeft: '5%'}} className='playerwrapper'>
+                        <ReactPlayer 
+                        url= {PRSV}
+                        loop = {true}
+                        playing = {true}
+                        width = "35vw"
+                        />
+                    </div>  
+                    {/* <div style={{paddingLeft: '5%'}} className='playerwrapper'>
+                        <ReactPlayer 
+                        url= {OROV2}
+                        loop = {true}
+                        playing = {true}
+                        width = "15vw"
+                        />
+                    </div>   */}
+                    <div style={{paddingLeft: '1%'}} className='playerwrapper'>
+                        <ReactPlayer 
+                        url= {OROV3}
+                        loop = {true}
+                        playing = {true}
+                        width = "35vw"
                         />
                     </div>  
                 </div>

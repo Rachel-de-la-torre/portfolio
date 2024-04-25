@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import {oro1} from '../assets/assetsImport';
-import {oro2} from '../assets/assetsImport';
-import {oro3} from '../assets/assetsImport';
 import { Link } from 'react-router-dom';
 
 export default class Oromo extends Component {
