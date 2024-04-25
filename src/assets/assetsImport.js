@@ -52,6 +52,10 @@ import OROV2 from './OROV2.mp4';
 import OROV3 from './OROV3.mp4';
 import ORV1 from './OROV1.mp4';
 import PRSV from './praise.mp4';
+import NIVV1 from './NIVV1.mp4';
+import NIVV2 from './NIVV2.mp4';
+import NIVV3 from './NIVV3.mp4';
+import NIVV4 from './NIVV4.mp4';
 
 export {minivid1}
 export {scroll}
@@ -103,6 +107,10 @@ export {OROV2}
 export {OROV3}
 export {PRSV}
 
+export {NIVV1}
+export {NIVV2}
+export {NIVV3}
+export {NIVV4}
 
 export {Knife}
 export {Pr}
